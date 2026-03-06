@@ -1,5 +1,11 @@
 {
-  "title": "Eleventy Netlify Boilerplate",
-  "description": "A template for building a simple blog website with the Eleventy static site generator, Decap CMS, and with deployment to Netlify.",
-  "url": "https://eleventy-netlify-boilerplate.netlify.app"
+  "title": "ShiningStars",
+  "url": "https://shiningstars-example.com/",
+  "language": "en",
+  "description": "A loving and happy place for early childhood development, structured learning, and play.",
+  "author": {
+    "name": "Jane Doe",
+    "email": "info@sunshinedaycare-example.com",
+    "url": "https://shiningstars-example.com/about-us/"
+  }
 }

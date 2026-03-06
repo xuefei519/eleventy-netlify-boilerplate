@@ -1,15 +1,27 @@
 ---
 layout: layouts/contact.njk
-title: Get in touch
-metaDescription: This is a sample meta description. If one is not present in your page/post's front matter, the default metadata.description will be used instead.
+title: Get in Touch 📞
+metaDescription: Contact ShiningStars Early Learning Center to schedule a tour or ask any questions. We would love to hear from you!
 section: contact
-date: 2018-01-01
+date: 2024-01-01
 permalink: /contact/index.html
 eleventyNavigation:
   key: Contact
-  order: 3
+  order: 4
 ---
-The contact form on this page uses [Netlify Forms](https://www.netlify.com/docs/form-handling/) to process submissions,
-and saves them in the connected Netlify account where notifications can
-optionally be configured. Each submission is passed through a spam filter and
-if flagged, will display a CAPTCHA challenge to the user.
+
+We would love to show you around our facility and introduce you to our amazing staff! 
+
+<div class="card" style="margin-bottom: 2rem;">
+  <h3>Contact Details</h3>
+  <ul>
+    <li><strong>Phone:</strong> (514) 123-4567</li>
+    <li><strong>Email:</strong> <a href="mailto:hello@shiningstars-example.com">hello@shiningstars-example.com</a></li>
+    <li><strong>Address:</strong> 123 Sunshine Blvd, Montreal, QC H2Y 1A1, Canada</li>
+  </ul>
+  <h3>Hours of Operation</h3>
+  <ul>
+    <li><strong>Monday - Friday:</strong> 6:30 AM - 6:00 PM</li>
+    <li><strong>Saturday - Sunday:</strong> Closed</li>
+  </ul>
+</div>

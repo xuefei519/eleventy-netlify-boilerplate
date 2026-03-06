@@ -86,6 +86,7 @@ module.exports = function(eleventyConfig) {
   let markdownIt = require("markdown-it");
   let markdownItAnchor = require("markdown-it-anchor");
   let options = {
+    html: true,
     breaks: true,
     linkify: true
   };
