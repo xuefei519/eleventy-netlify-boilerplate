@@ -1,6 +1,6 @@
 ---
 layout: layouts/contact.njk
-title: Get in Touch 📞
+title: Get in Touch
 metaDescription: Contact ShiningStars Early Learning Center to schedule a tour or ask any questions. We would love to hear from you!
 section: contact
 date: 2024-01-01
