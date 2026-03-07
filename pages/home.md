@@ -22,7 +22,7 @@ eleventyNavigation:
 
 <section class="philosophy-section">
   <div class="philosophy-image">
-    <img src="/static/img/happy-teacher-listening-her-students.jpg" alt="Teacher listening to students" class="illustration-placeholder-img">
+    <img src="./static/img/happy-teacher-listening-her-students.jpg" alt="Teacher listening to students" class="illustration-placeholder-img">
     <div class="years-badge"><strong>15+ Years</strong><br>Of dedicated early childhood excellence</div>
   </div>
   <div class="philosophy-content">
