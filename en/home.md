@@ -59,10 +59,10 @@ eleventyNavigation:
     <div class="program-card">
       <div class="program-icon"><i data-lucide="smile"></i></div>
       <h3>Infant Care</h3>
-      <p class="age-range">6 weeks - 14 months. Focus on sensory exploration, gentle bonding, and safe physical development.</p>
+      <p class="age-range">6 weeks - 18 months. Focus on sensory exploration, gentle bonding, and safe physical development.</p>
       <ul class="program-benefits">
         <li>Daily personalized reports</li>
-        <li>1:3 staff-to-child ratio</li>
+        <li>1:5 staff-to-child ratio</li>
         <li>Nutritious meals included</li>
       </ul>
       <a href="/programs/" class="btn-secondary dark">Program Details</a>
@@ -70,7 +70,7 @@ eleventyNavigation:
     <div class="program-card">
       <div class="program-icon"><i data-lucide="palette"></i></div>
       <h3>Toddler Program</h3>
-      <p class="age-range">14 months - 3 years. Promoting social skills, language development, and early independence.</p>
+      <p class="age-range">18 months - 3 years. Promoting social skills, language development, and early independence.</p>
       <ul class="program-benefits">
         <li>Creative arts and music</li>
         <li>Potty training support</li>

@@ -48,7 +48,7 @@ main {
 }
 
 h1,
-h2,
+/*h2,*/
 h3,
 h4 {
   font-weight: 800;
@@ -64,6 +64,11 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
+    color: var(--secondary);
+}
+
+h3 {
+    color: var(--secondary);
 }
 
 @media (min-width: 768px) {
@@ -527,7 +532,7 @@ header nav li a[data-current="current item"] {
 .quote-icon {
   font-size: 4rem;
   color: var(--primary);
-  opacity: 0.2;
+  opacity: 0.5;
   position: absolute;
   top: 1rem;
   right: 2rem;

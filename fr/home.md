@@ -59,10 +59,10 @@ eleventyNavigation:
     <div class="program-card">
       <div class="program-icon"><i data-lucide="smile"></i></div>
       <h3>Pouponnière</h3>
-      <p class="age-range">6 semaines - 14 mois. L'accent est mis sur l'exploration sensorielle et un développement physique en douceur.</p>
+      <p class="age-range">6 semaines - 18 mois. L'accent est mis sur l'exploration sensorielle et un développement physique en douceur.</p>
       <ul class="program-benefits">
         <li>Rapports quotidiens</li>
-        <li>Ratio de 1 adulte pour 3 enfants</li>
+        <li>Ratio de 1 adulte pour 5 enfants</li>
         <li>Repas nutritifs inclus</li>
       </ul>
       <a href="/fr/programs/" class="btn-secondary dark">Détails du Programme</a>
@@ -70,7 +70,7 @@ eleventyNavigation:
     <div class="program-card">
       <div class="program-icon"><i data-lucide="palette"></i></div>
       <h3>Programme Bambins</h3>
-      <p class="age-range">14 mois - 3 ans. Promouvoir les habiletés sociales, le langage et l'indépendance précoce.</p>
+      <p class="age-range">18 mois - 3 ans. Promouvoir les habiletés sociales, le langage et l'indépendance précoce.</p>
       <ul class="program-benefits">
         <li>Arts plastiques et musique</li>
         <li>Soutien à l'apprentissage de la propreté</li>
