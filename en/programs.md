@@ -19,17 +19,17 @@ eleventyNavigation:
     <img src="/static/img/infant-illustration.png" alt="Sleeping infant illustration">
   </div>
   <div class="program-content">
-    <span class="pill-badge">6 Weeks - 14 Months</span>
+    <span class="pill-badge">6 Weeks - 18 Months</span>
     <h2>Infant Care</h2>
     <p>Our infant program focus on building secure attachments through responsive care and sensory-rich environments. We provide a gentle transition from home to school.</p>
-    
-    <p style="font-weight: 700; margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--secondary);">Key Learning Milestones:</p>
-    <ul class="learning-list">
-      <li><i data-lucide="check-circle-2"></i> Sensory exploration</li>
-      <li><i data-lucide="check-circle-2"></i> Social bonding</li>
-      <li><i data-lucide="check-circle-2"></i> Early motor skills</li>
-      <li><i data-lucide="check-circle-2"></i> Language awareness</li>
-    </ul>
+
+<p style="font-weight: 700; margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--secondary);">Key Learning Milestones:</p>
+<ul class="learning-list">
+<li><i data-lucide="check-circle-2"></i> Sensory exploration</li>
+<li><i data-lucide="check-circle-2"></i> Social bonding</li>
+<li><i data-lucide="check-circle-2"></i> Early motor skills</li>
+<li><i data-lucide="check-circle-2"></i> Language awareness</li>
+</ul>
   </div>
 </div>
 
@@ -38,17 +38,17 @@ eleventyNavigation:
     <img src="/static/img/toddler-illustration.png" alt="Toddlers playing with blocks illustration">
   </div>
   <div class="program-content">
-    <span class="pill-badge">14 Months - 3 Years</span>
+    <span class="pill-badge">18 Months - 3 Years</span>
     <h2>Toddler Program</h2>
     <p>Active learning for busy bodies! Our toddler program encourages independence and social interaction through guided discovery and physical play.</p>
     
-    <p style="font-weight: 700; margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--secondary);">Key Learning Milestones:</p>
-    <ul class="learning-list">
-      <li><i data-lucide="check-circle-2"></i> Cooperative play</li>
-      <li><i data-lucide="check-circle-2"></i> Emotional regulation</li>
-      <li><i data-lucide="check-circle-2"></i> Vocabulary building</li>
-      <li><i data-lucide="check-circle-2"></i> Gross motor control</li>
-    </ul>
+<p style="font-weight: 700; margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--secondary);">Key Learning Milestones:</p>
+<ul class="learning-list">
+<li><i data-lucide="check-circle-2"></i> Cooperative play</li>
+<li><i data-lucide="check-circle-2"></i> Emotional regulation</li>
+<li><i data-lucide="check-circle-2"></i> Vocabulary building</li>
+<li><i data-lucide="check-circle-2"></i> Gross motor control</li>
+</ul>
   </div>
 </div>
 
@@ -58,16 +58,11 @@ eleventyNavigation:
   </div>
   <div class="program-content">
     <span class="pill-badge">3 - 5 Years</span>
-    <h2>Pre-K</h2>
+    <h2>Pre-K Program</h2>
     <p>Preparing for the big steps ahead. Our Pre-K curriculum blends academic foundations with creative exploration and problem-solving.</p>
-    
     <p style="font-weight: 700; margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--secondary);">Key Learning Milestones:</p>
     <ul class="learning-list">
-      <li><i data-lucide="check-circle-2"></i> Early literacy & math</li>
-      <li><i data-lucide="check-circle-2"></i> Project collaboration</li>
-      <li><i data-lucide="check-circle-2"></i> Scientific inquiry</li>
-      <li><i data-lucide="check-circle-2"></i> Creative expression</li>
-    </ul>
+    <li><i data-lucide="check-circle-2"></i> Early literacy & math</li><li><i data-lucide="check-circle-2"></i> Project collaboration</li><li><i data-lucide="check-circle-2"></i> Scientific inquiry</li><li><i data-lucide="check-circle-2"></i> Creative expression</li></ul>
   </div>
 </div>
 

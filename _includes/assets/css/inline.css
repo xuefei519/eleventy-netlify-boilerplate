@@ -988,6 +988,7 @@ button[type="submit"]:hover,
 .enrichment-card h4 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+    color: var(--secondary)
 }
 
 .enrichment-card p {

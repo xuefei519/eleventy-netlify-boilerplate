@@ -19,11 +19,11 @@ eleventyNavigation:
     <img src="/static/img/infant-illustration.png" alt="Illustration de poupon endormi">
   </div>
   <div class="program-content">
-    <span class="pill-badge">6 Semaines - 14 Mois</span>
+    <span class="pill-badge">6 Semaines - 18 Mois</span>
     <h2>Pouponnière</h2>
     <p>Notre programme de pouponnière se concentre sur l'établissement d'attachements sécurisants à travers des soins attentifs et des environnements riches en expériences sensorielles. Nous assurons une transition en douceur de la maison à l'école.</p>
     
-    <p style="font-weight: 700; margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--secondary);">Étapes Clés d'Apprentissage :</p>
+<p style="font-weight: 700; margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--secondary);">Étapes Clés d'Apprentissage :</p>
     <ul class="learning-list">
       <li><i data-lucide="check-circle-2"></i> Exploration sensorielle</li>
       <li><i data-lucide="check-circle-2"></i> Attachement social</li>
@@ -38,11 +38,11 @@ eleventyNavigation:
     <img src="/static/img/toddler-illustration.png" alt="Illustration de bambins jouant">
   </div>
   <div class="program-content">
-    <span class="pill-badge">14 Mois - 3 Ans</span>
+    <span class="pill-badge">18 Mois - 3 Ans</span>
     <h2>Programme Bambins</h2>
     <p>Un apprentissage actif pour les petits corps occupés ! Notre programme encourage l'indépendance et l'interaction sociale à travers la découverte guidée et le jeu physique.</p>
     
-    <p style="font-weight: 700; margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--secondary);">Étapes Clés d'Apprentissage :</p>
+<p style="font-weight: 700; margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--secondary);">Étapes Clés d'Apprentissage :</p>
     <ul class="learning-list">
       <li><i data-lucide="check-circle-2"></i> Jeu coopératif</li>
       <li><i data-lucide="check-circle-2"></i> Régulation émotionnelle</li>
@@ -61,7 +61,7 @@ eleventyNavigation:
     <h2>Maternelle (Pre-K)</h2>
     <p>Préparation pour les grandes étapes à venir. Notre programme de maternelle allie des bases académiques à l'exploration créative et la résolution de problèmes.</p>
     
-    <p style="font-weight: 700; margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--secondary);">Étapes Clés d'Apprentissage :</p>
+<p style="font-weight: 700; margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--secondary);">Étapes Clés d'Apprentissage :</p>
     <ul class="learning-list">
       <li><i data-lucide="check-circle-2"></i> Alphabétisation précoce et maths</li>
       <li><i data-lucide="check-circle-2"></i> Collaboration sur des projets</li>
