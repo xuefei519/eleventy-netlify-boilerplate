@@ -80,7 +80,7 @@ eleventyNavigation:
     </div>
     <div class="program-card">
       <div class="program-icon"><i data-lucide="graduation-cap"></i></div>
-      <h3>Préscolaire</h3>
+      <h3>Maternelle (Pre-K)</h3>
       <p class="age-range">3 - 5 ans. Préparation à la maternelle avec une approche STEM et l'alphabétisation.</p>
       <ul class="program-benefits">
         <li>Programme basé sur les STEM</li>

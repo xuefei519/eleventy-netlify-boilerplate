@@ -80,7 +80,7 @@ eleventyNavigation:
     </div>
     <div class="program-card">
       <div class="program-icon"><i data-lucide="graduation-cap"></i></div>
-      <h3>Preschool</h3>
+      <h3>Pre-K</h3>
       <p class="age-range">3 - 5 years. Preparing children for Kindergarten with a focus on literacy, math, and STEAM.</p>
       <ul class="program-benefits">
         <li>STEAM-based curriculum</li>
