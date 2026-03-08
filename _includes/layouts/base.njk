@@ -1,17 +1,29 @@
 <!doctype html>
-<html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
+<html {% if section %} data-current="{{ section }}"{% endif %} lang="{{ page.lang | default('en') }}">
 
 	{% include "components/head.njk" %}
 
 	<body>
+		{% set currentLang = page.lang | default("en") %}
 
 		<header>
 			<em class="header-logo">
-				<a href="{{ '/' | url }}"><span class="logo-icon"></span>{{ metadata.title }}</a>
+				<a href="/{{ currentLang }}/"><span class="logo-icon"><i data-lucide="star" style="display:block!important; color: var(--secondary); fill: var(--secondary); padding: 4px"></i></span>{{ metadata.title }}</a>
 			</em>
 			{% include "components/nav.njk" %}
-			<div class="header-cta">
-				<a href="/contact/" class="btn-primary" style="padding: 0.5rem 1.5rem; font-size: 0.95rem;">Book a Tour</a>
+			<div class="header-cta" style="display: flex; align-items: center; gap: 1rem;">
+				{% for link in page.url | locale_links %}
+					<a href="{{ link.url }}" hreflang="{{ link.lang }}" style="font-weight: bold; text-decoration: none; color: var(--text);">{{ link.lang | upper }}</a>
+				{% else %}
+          {% if currentLang == 'en' %}
+					  <a href="/fr/" hreflang="fr" style="font-weight: bold; text-decoration: none; color: var(--text);">FR</a>
+          {% else %}
+					  <a href="/en/" hreflang="en" style="font-weight: bold; text-decoration: none; color: var(--text);">EN</a>
+          {% endif %}
+				{% endfor %}
+				<a href="/{{ currentLang }}/contact/" class="btn-primary" style="padding: 0.5rem 1.5rem; font-size: 0.95rem;">
+					{% if currentLang == 'fr' %}Réserver{% else %}Book a Tour{% endif %}
+				</a>
 			</div>
 		</header>
 

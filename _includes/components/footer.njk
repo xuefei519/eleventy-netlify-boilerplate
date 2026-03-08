@@ -1,22 +1,25 @@
+{% set currentLang = page.lang | default("en") %}
 <footer class="site-footer">
   <div class="footer-grid">
     <div class="footer-col brand-col">
       <em class="header-logo">
-        <span class="logo-icon"></span>{{ metadata.title }}
+        <span class="logo-icon"><i data-lucide="star" style="display:block!important; color: var(--secondary); fill: var(--secondary); padding: 4px"></i></span>{{ metadata.title }}
       </em>
-      <p style="margin-top: 1rem;">Excellence in early childhood education. Providing a foundation for life-long learning and discovery.</p>
+      <p style="margin-top: 1rem;">
+        {% if currentLang == 'fr' %}Excellence en éducation à la petite enfance. Bâtir des bases pour un apprentissage à vie.{% else %}Excellence in early childhood education. Providing a foundation for life-long learning and discovery.{% endif %}
+      </p>
     </div>
     <div class="footer-col links-col">
-      <h4>Quick Links</h4>
+      <h4>{% if currentLang == 'fr' %}Liens Rapides{% else %}Quick Links{% endif %}</h4>
       <ul>
-        <li><a href="/programs/">Our Programs</a></li>
-        <li><a href="/about/">Admission Process</a></li>
-        <li><a href="/about/">Staff Members</a></li>
-        <li><a href="/contact/">Parent Handbook</a></li>
+        <li><a href="/{{ currentLang }}/programs/">{% if currentLang == 'fr' %}Nos Programmes{% else %}Our Programs{% endif %}</a></li>
+        <li><a href="/{{ currentLang }}/about/">{% if currentLang == 'fr' %}Processus d'Admission{% else %}Admission Process{% endif %}</a></li>
+        <li><a href="/{{ currentLang }}/about/">{% if currentLang == 'fr' %}Notre Équipe{% else %}Staff Members{% endif %}</a></li>
+        <li><a href="/{{ currentLang }}/contact/">{% if currentLang == 'fr' %}Manuel des Parents{% else %}Parent Handbook{% endif %}</a></li>
       </ul>
     </div>
     <div class="footer-col contact-col">
-      <h4>Contact Us</h4>
+      <h4>{% if currentLang == 'fr' %}Nous Joindre{% else %}Contact Us{% endif %}</h4>
       <ul>
         <li><i data-lucide="map-pin" style="display:inline; vertical-align:sub; margin-right:8px; width: 18px; height: 18px;"></i>123 Sunshine Blvd, Montreal, QC</li>
         <li><i data-lucide="phone" style="display:inline; vertical-align:sub; margin-right:8px; width: 18px; height: 18px;"></i>(514) 123-4567</li>
@@ -24,11 +27,11 @@
       </ul>
     </div>
     <div class="footer-col location-col">
-      <h4>Location</h4>
+      <h4>{% if currentLang == 'fr' %}Emplacement{% else %}Location{% endif %}</h4>
       <div class="map-placeholder"></div>
     </div>
   </div>
   <div class="footer-bottom">
-    <p>&copy; 2024 {{ metadata.title }}. All rights reserved.</p>
+    <p>&copy; 2024 {{ metadata.title }}. {% if currentLang == 'fr' %}Tous droits réservés.{% else %}All rights reserved.{% endif %}</p>
   </div>
 </footer>

@@ -1,0 +1,5 @@
+{
+  "layout": "layouts/page.njk",
+  "lang": "fr",
+  "tags": ["fr"]
+}
