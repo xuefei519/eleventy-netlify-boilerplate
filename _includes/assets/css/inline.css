@@ -14,6 +14,7 @@
   --border-radius-lg: 32px;
   --border-radius-md: 16px;
   --shadow-sm: 0 4px 6px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 10px 25px rgba(0, 0, 0, 0.06);
   --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.08);
 }
 
@@ -185,7 +186,7 @@ header>em a {
   border-radius: 4px;
   vertical-align: text-bottom;
   margin-right: 8px;
-    vertical-align: middle;
+    /*vertical-align: middle;*/
 }
 
 .header-cta {
@@ -1016,4 +1017,218 @@ button[type="submit"]:hover,
   color: #9ca3af; /* Light gray */
   max-width: 600px;
   margin: 1rem auto 2rem;
+}
+
+/* About Page Specific Styles */
+.about-hero {
+  position: relative;
+  border-radius: var(--border-radius-lg);
+  background: linear-gradient(rgba(31, 41, 55, 0.5), rgba(31, 41, 55, 0.5)),
+              url('/static/img/about-hero-bg.png') center/cover no-repeat;
+  padding: 8rem 2rem;
+  color: var(--surface);
+  text-align: center;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-hero h1 {
+  color: var(--surface);
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.about-hero p {
+  color: var(--surface);
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+}
+
+.our-story-section {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-bottom: 6rem;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .our-story-section {
+    flex-direction: row;
+    gap: 5rem;
+  }
+}
+
+.story-content {
+  flex: 1;
+}
+
+.story-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.story-icon-block {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.story-icon-block .icon {
+  width: 48px;
+  height: 48px;
+  background-color: color-mix(in srgb, var(--primary) 20%, transparent);
+  color: var(--primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.story-icon-block h4 {
+  margin: 0 0 0.25rem 0;
+    color: var(--secondary);
+}
+
+.story-icon-block p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.story-image {
+  flex: 1;
+}
+
+.story-image img {
+  width: 100%;
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-lg);
+  display: block;
+}
+
+.educator-section {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.educator-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.educator-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+@media (min-width: 600px) {
+  .educator-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .educator-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.educator-card {
+  background: var(--surface);
+  padding: 2.5rem 1.5rem;
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-md);
+  text-align: center;
+}
+
+.educator-portrait {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid var(--primary);
+  margin: 0 auto 1.5rem;
+  overflow: hidden;
+}
+
+.educator-portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.educator-card h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.educator-title {
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.educator-card p {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.join-family-banner {
+  background-color: var(--primary);
+  padding: 5rem 2rem;
+  border-radius: var(--border-radius-lg);
+  text-align: center;
+  margin-bottom: 4rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.join-family-banner h2 {
+  color: var(--text-main);
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 2;
+}
+
+.join-family-banner p {
+  color: var(--text-main);
+  max-width: 700px;
+  margin: 0 auto 2.5rem;
+  position: relative;
+  z-index: 2;
+}
+
+.join-family-banner .btn-group {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 2;
+}
+
+/* Background smile decoration for the banner */
+.banner-decoration {
+  position: absolute;
+  right: -5%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;
+  height: 300px;
+  opacity: 0.1;
+  color: #000;
+  z-index: 1;
 }
