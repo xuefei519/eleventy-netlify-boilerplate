@@ -9,8 +9,11 @@ eleventyNavigation:
   key: Contact
   order: 4
 ---
+<div class="about-hero">
+  <h1>Nous Joindre</h1>
+  <p>Nous serions ravis de vous faire visiter nos installations et de vous présenter notre formidable équipe! </p>
+</div>
 
-Nous serions ravis de vous faire visiter nos installations et de vous présenter notre formidable équipe!
 
 <div class="card" style="margin-bottom: 2rem;">
   <h3>Coordonnées</h3>

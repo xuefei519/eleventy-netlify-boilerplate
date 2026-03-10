@@ -9,8 +9,11 @@ eleventyNavigation:
   key: Contact
   order: 4
 ---
+<div class="contact-hero">
+  <h1>Get in Touch</h1>
+  <p>We would love to show you around our facility and introduce you to our amazing staff! </p>
+</div>
 
-We would love to show you around our facility and introduce you to our amazing staff! 
 
 <div class="card" style="margin-bottom: 2rem;">
   <h3>Contact Details</h3>

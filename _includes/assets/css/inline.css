@@ -184,9 +184,8 @@ header>em a {
   height: 24px;
   background: var(--primary);
   border-radius: 4px;
-  vertical-align: text-bottom;
   margin-right: 8px;
-    /*vertical-align: middle;*/
+    vertical-align: middle;
 }
 
 .header-cta {
@@ -1231,4 +1230,21 @@ button[type="submit"]:hover,
   opacity: 0.1;
   color: #000;
   z-index: 1;
+}
+
+.contact-hero {
+    position: relative;
+    /*background: linear-gradient(color-mix(in srgb, var(--primary) 20%, transparent),  var(--surface));*/
+    padding: 2rem 2rem;
+    color: var(--surface);
+    text-align: center;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-hero h1 {
+    color: var(--secondary);
 }
