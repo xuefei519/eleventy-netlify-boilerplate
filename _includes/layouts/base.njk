@@ -8,7 +8,7 @@
 
 		<header>
 			<em class="header-logo">
-				<a href="/{{ currentLang }}/"><span class="logo-icon"><i data-lucide="star" style="display:block!important; color: var(--secondary); fill: var(--secondary); padding: 4px"></i></span>{{ metadata.title }}</a>
+				<a href="{{ '/fr/' if currentLang == 'fr'  else '/' }}"><span class="logo-icon"><i data-lucide="star" style="display:block!important; color: var(--secondary); fill: var(--secondary); padding: 4px"></i></span>{{ metadata.title }}</a>
 			</em>
 			{% include "components/nav.njk" %}
 			<div class="header-cta" style="display: flex; align-items: center; gap: 1rem;">
@@ -18,7 +18,7 @@
           {% if currentLang == 'en' %}
 					  <a href="/fr/" hreflang="fr" style="font-weight: bold; text-decoration: none; color: var(--text);">FR</a>
           {% else %}
-					  <a href="/en/" hreflang="en" style="font-weight: bold; text-decoration: none; color: var(--text);">EN</a>
+					  <a href="/" hreflang="en" style="font-weight: bold; text-decoration: none; color: var(--text);">EN</a>
           {% endif %}
 				{% endfor %}
 				<a href="/{{ currentLang }}/contact/" class="btn-primary" style="padding: 0.5rem 1.5rem; font-size: 0.95rem;">

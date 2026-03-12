@@ -12,10 +12,9 @@
     <div class="footer-col links-col">
       <h4>{% if currentLang == 'fr' %}Liens Rapides{% else %}Quick Links{% endif %}</h4>
       <ul>
-        <li><a href="/{{ currentLang }}/programs/">{% if currentLang == 'fr' %}Nos Programmes{% else %}Our Programs{% endif %}</a></li>
-        <li><a href="/{{ currentLang }}/about/">{% if currentLang == 'fr' %}Processus d'Admission{% else %}Admission Process{% endif %}</a></li>
-        <li><a href="/{{ currentLang }}/about/">{% if currentLang == 'fr' %}Notre Équipe{% else %}Staff Members{% endif %}</a></li>
-        <li><a href="/{{ currentLang }}/contact/">{% if currentLang == 'fr' %}Manuel des Parents{% else %}Parent Handbook{% endif %}</a></li>
+        <li><a href="{{ '/fr/programs/' if currentLang == 'fr'  else '/programs/' }}">{% if currentLang == 'fr' %}Nos Programmes{% else %}Our Programs{% endif %}</a></li>
+        <li><a href="{{'/fr/about/' if currentLang == 'fr'  else '/about/'}}">{% if currentLang == 'fr' %}Notre Équipe{% else %}Staff Members{% endif %}</a></li>
+        <li><a href="{{'/fr/contact/' if currentLang == 'fr'  else '/contact/'}}">{% if currentLang == 'fr' %}Manuel des Parents{% else %}Parent Handbook{% endif %}</a></li>
       </ul>
     </div>
     <div class="footer-col contact-col">
