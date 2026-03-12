@@ -30,7 +30,7 @@ eleventyNavigation:
     <h2>Nourrir la curiosité, favoriser l'indépendance.</h2>
     <p>Chez ShiningStars, nous croyons que les cinq premières années sont les plus critiques dans le développement de l'enfant. Notre programme axé sur le jeu est conçu pour stimuler la croissance cognitive, sociale et émotionnelle dans un environnement sûr et aimant.</p>
     
-    <div class="feature-list">
+<div class="feature-list">
       <div class="feature-item">
         <div class="feature-icon"><i data-lucide="heart"></i></div>
         <div class="feature-text">
@@ -65,7 +65,7 @@ eleventyNavigation:
         <li>Ratio de 1 adulte pour 5 enfants</li>
         <li>Repas nutritifs inclus</li>
       </ul>
-      <a href="/fr/programs/" class="btn-secondary dark">Détails du Programme</a>
+      <a href="/fr/programs/#infant-care" class="btn-secondary dark">Détails du Programme</a>
     </div>
     <div class="program-card">
       <div class="program-icon"><i data-lucide="palette"></i></div>
@@ -76,7 +76,7 @@ eleventyNavigation:
         <li>Soutien à l'apprentissage de la propreté</li>
         <li>Aires de jeux extérieures</li>
       </ul>
-      <a href="/fr/programs/" class="btn-secondary dark">Détails du Programme</a>
+      <a href="/fr/programs/#toddler-program" class="btn-secondary dark">Détails du Programme</a>
     </div>
     <div class="program-card">
       <div class="program-icon"><i data-lucide="graduation-cap"></i></div>
@@ -87,7 +87,7 @@ eleventyNavigation:
         <li>Préparation à l'école</li>
         <li>Introduction à une deuxième langue</li>
       </ul>
-      <a href="/fr/programs/" class="btn-secondary dark">Détails du Programme</a>
+      <a href="/fr/programs/#pre-k" class="btn-secondary dark">Détails du Programme</a>
     </div>
   </div>
 </section>

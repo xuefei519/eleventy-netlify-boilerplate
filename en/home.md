@@ -30,7 +30,7 @@ eleventyNavigation:
     <h2>Nurturing curiosity, fostering independence.</h2>
     <p>At ShiningStars, we believe that the first five years are the most critical in a child's development. Our play-based curriculum is designed to stimulate cognitive, social, and emotional growth in a safe and loving environment.</p>
     
-    <div class="feature-list">
+<div class="feature-list">
       <div class="feature-item">
         <div class="feature-icon"><i data-lucide="heart"></i></div>
         <div class="feature-text">
@@ -65,7 +65,7 @@ eleventyNavigation:
         <li>1:5 staff-to-child ratio</li>
         <li>Nutritious meals included</li>
       </ul>
-      <a href="/programs/" class="btn-secondary dark">Program Details</a>
+      <a href="/programs/#infant-care" class="btn-secondary dark">Program Details</a>
     </div>
     <div class="program-card">
       <div class="program-icon"><i data-lucide="palette"></i></div>
@@ -76,7 +76,7 @@ eleventyNavigation:
         <li>Potty training support</li>
         <li>Outdoor playgrounds</li>
       </ul>
-      <a href="/programs/" class="btn-secondary dark">Program Details</a>
+      <a href="/programs/#toddler-program" class="btn-secondary dark">Program Details</a>
     </div>
     <div class="program-card">
       <div class="program-icon"><i data-lucide="graduation-cap"></i></div>
@@ -87,7 +87,7 @@ eleventyNavigation:
         <li>Kindergarten readiness</li>
         <li>Second language basics</li>
       </ul>
-      <a href="/programs/" class="btn-secondary dark">Program Details</a>
+      <a href="/programs/#pre-k" class="btn-secondary dark">Program Details</a>
     </div>
   </div>
 </section>
